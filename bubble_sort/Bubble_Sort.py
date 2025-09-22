@@ -17,7 +17,6 @@ def bubble_sort(L):
 
 # optimized version
 def optimized_bubble_sort(L):
-    end = len(L)
     for i in range(len(L)):
         swapped = False
         for j in range (len(L)-i-1):
