@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 # n^2 version (naive)
 def bubble_sort(L):
-    for i in range(len(L)):
+    for _ in range(len(L)):
         for i in range (len(L)):
             if i+1< len(L):
                 if L[i] > L[i+1]:
